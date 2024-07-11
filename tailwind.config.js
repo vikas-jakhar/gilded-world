@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('./assets/image/webp/hero-bg-img.png')"
+        'hero-bg': "url('./assets/image/webp/hero-bg-img.png')",
+        'nft': "url('./assets/image/webp/nft-bg.png')",
+        'game': "url('./assets/image/webp/gildedworld_environment.png')",
       },
       fontFamily: {
         'Josefin': "Josefin Sans, sans-serif",

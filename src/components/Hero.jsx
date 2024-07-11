@@ -37,14 +37,14 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="min-h-screen bg-hero-bg bg-cover bg-no-repeat bg-center flex items-center">
-            <div className="container px-3">
+        <section className="min-h-[931px] bg-hero-bg bg-cover bg-no-repeat bg-center flex items-center py-5">
+            <div className="container px-3 pt-14 mt-0.5">
                 <div className="flex flex-col items-center">
-                    <h2 className="font-poppins font-normal text-7xl text-center text-white leading-[92px] max-w-[1140px]">
+                    <h2 className="font-poppins font-normal mt-14 text-7xl text-center text-white leading-[92px] max-w-[1140px]">
                         There are games... And then
                         there are <span className="text-[#1BABFE]">Gilded</span> Games
                     </h2>
-                    <div className="flex gap-4 mt-5">
+                    <div className="flex gap-4 mt-5 pt-px">
                         <div className="font-semibold font-Josefin text-4xl text-[#1BABFE]">
                             <span>{timeRemaining.days}</span>
                             <span>d</span>
@@ -78,13 +78,13 @@ const Hero = () => {
                         Remaining Presale Time
                     </p>
                     <div className=" flex gap-6 items-center mt-[22px]">
-                        <button className=' py-[14px] px-[34px] font-Josefin font-normal text-white text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE] flex gap-2.5 items-center'>
+                        <button className=' py-[10px] px-[34px] font-Josefin font-normal text-white text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE] flex gap-2.5 items-center'>
                             <span>
                                 <Hand />
                             </span>
                             Presale
                         </button>
-                        <button className=' py-[14px] px-[34px] font-Josefin font-normal text-white text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE]'>
+                        <button className=' py-[10px] px-[34px] font-Josefin font-normal text-white text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE]'>
                             Join Now
                         </button>
                     </div>

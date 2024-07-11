@@ -24,7 +24,7 @@ const Navbar = () => {
                         {navlink.map(link => (
                             <a key={link.id} href="" className=' font-normal font-Josefin text-white text-[22px] lg:text-lg xl:text-[22px] duration-300 ease-linear relative after:absolute after:content-[""] after:bg-white after:h-0.5 after:-bottom-1 after:right-0 hover:after:w-full after:duration-300 after:ease-linear after:w-0 hover:after:left-0 hover:after:right-auto'>{link.text}</a>
                         ))}
-                        <button className=' flex items-center gap-2.5 font-Josefin text-white font-normal text-2xl py-[14px] px-[34px] bg-[linear-gradient(149.67deg,_#815CC8_29.44%,_#1BABFE_81.54%)] rounded-[79px] shadow-[0px_8px_30px_0px_#1BABFE] duration-300 ease-linear hover:scale-90 hover:shadow-[0px_0px_0px_2px_#1BABFE]'>
+                        <button className=' flex items-center gap-2.5 font-Josefin text-white font-normal text-2xl py-[10px] px-[34px] bg-[linear-gradient(149.67deg,_#815CC8_29.44%,_#1BABFE_81.54%)] rounded-[79px] shadow-[0px_8px_30px_0px_#1BABFE] duration-300 ease-linear hover:scale-90 hover:shadow-[0px_0px_0px_2px_#1BABFE]'>
                             <span>
                                 <Discord />
                             </span>
