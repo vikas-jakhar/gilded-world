@@ -10,6 +10,7 @@ module.exports = {
         'nft': "url('./assets/image/webp/nft-bg.png')",
         'game': "url('./assets/image/webp/gildedworld_environment.png')",
         'token': "url('./assets/image/webp/token-bg.png')",
+        'Uniswap': "url('./assets/image/webp/Uniswap-bg.png')",
       },
       fontFamily: {
         'Josefin': "Josefin Sans, sans-serif",

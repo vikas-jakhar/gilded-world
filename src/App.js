@@ -6,6 +6,7 @@ import Nft from './components/Nft';
 import Token from './components/Token';
 import './App.css';
 import Roadmap from './components/Roadmap';
+import Uniswap from './components/Uniswap';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Game />
       <Token />
       <Roadmap />
+      <Uniswap />
     </main>
   );
 }
