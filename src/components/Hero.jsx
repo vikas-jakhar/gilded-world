@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Hand } from '../icon';
+import Icon from './Icon';
 
 const Hero = () => {
     const [timeRemaining, setTimeRemaining] = useState({
@@ -80,8 +80,7 @@ const Hero = () => {
                     <div className=" flex sm:gap-6 gap-3 items-center mt-[22px] flex-wrap justify-center">
                         <button className=' py-1 sm:py-[10px] px-7 sm:px-[34px] font-Josefin font-normal text-white text-lg sm:text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE] flex gap-2.5 items-center'>
                             <span>
-                                <Hand />
-                            </span>
+                                <Icon icon="Hand" />                            </span>
                             Presale
                         </button>
                         <button className=' py-1 sm:py-[10px] px-7 sm:px-[34px] font-Josefin font-normal text-white text-lg sm:text-2xl shadow-[0px_0px_0px_1px_white] rounded-[79px] duration-300 ease-linear hover:bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] hover:border-transparent hover:shadow-[0px_8px_30px_0px_#1BABFE]'>

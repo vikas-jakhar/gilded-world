@@ -29,8 +29,8 @@ const Roadmap = () => {
     ];
 
     return (
-        <section className='md:pt-20 -mt-2 bg-black md:pb-16 py-10 relative'>
-            <div className="container px-3 mt-2 mb-16 pt-6 pb-4 relative">
+        <section className='md:pt-20 -mt-2 bg-black md:pb-16 py-10 relative overflow-hidden'>
+            <div className="container px-3 mt-2 lg:mb-16 pt-6 pb-4 relative 2xl:px-0">
                 <h2 className='text-center font-Josefin md:mb-16 mb-6 font-bold text-5xl text-white'><span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Road</span>map</h2>
                 <div className="pt-px flex flex-wrap flex-row -mx-3 relative">
                     {timeline.map((item, index) => (

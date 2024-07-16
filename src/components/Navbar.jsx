@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../assets/image/svg/logo.svg";
-import { Discord } from '../icon';
+import Icon from './Icon';
 
 const Navbar = () => {
     const [open, setopen] = useState(false);
@@ -15,7 +15,7 @@ const Navbar = () => {
     ]
     return (
         <header className=' fixed top-0 left-0 w-full py-4 bg-primary_black z-20'>
-            <div className="container px-3 my-0.5 py-px">
+            <div className="container px-3 my-0.5 py-px 2xl:px-0">
                 <nav className=' flex justify-between items-center'>
                     <a href="#">
                         <img src={logo} alt="logo" className=' w-10/12 sm:w-auto' />
@@ -26,7 +26,7 @@ const Navbar = () => {
                         ))}
                         <button className=' flex items-center gap-2.5 font-Josefin text-white font-normal text-2xl py-[10px] px-[34px] bg-[linear-gradient(149.67deg,_#815CC8_29.44%,_#1BABFE_81.54%)] rounded-[79px] shadow-[0px_8px_30px_0px_#1BABFE] duration-300 ease-linear hover:scale-90 hover:shadow-[0px_0px_0px_2px_#1BABFE]'>
                             <span>
-                                <Discord />
+                                <Icon icon="Discord" />
                             </span>
                             Discord
                         </button>

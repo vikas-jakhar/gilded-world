@@ -4,9 +4,11 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Nft from './components/Nft';
 import Token from './components/Token';
-import './App.css';
 import Roadmap from './components/Roadmap';
 import Uniswap from './components/Uniswap';
+import Powered from './components/Powered';
+import './App.css';
+import Questions from './components/Questions';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Token />
       <Roadmap />
       <Uniswap />
+      <Powered />
+      <Questions />
     </main>
   );
 }

@@ -11,6 +11,7 @@ module.exports = {
         'game': "url('./assets/image/webp/gildedworld_environment.png')",
         'token': "url('./assets/image/webp/token-bg.png')",
         'Uniswap': "url('./assets/image/webp/Uniswap-bg.png')",
+        'Questions': "url('./assets/image/webp/Questions-bg.png')",
       },
       fontFamily: {
         'Josefin': "Josefin Sans, sans-serif",
