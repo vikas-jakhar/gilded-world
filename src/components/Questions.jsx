@@ -39,7 +39,7 @@ const Questions = () => {
     return (
         <section className='pt-10 pb-3 -mt-1 bg-Questions bg-cover bg-no-repeat bg-center'>
             <div className="container px-3 2xl:px-0 mt-10 pt-1">
-                <h2 className='font-poppins font-bold text-5xl text-white text-center mb-14'>
+                <h2 className='font-poppins font-bold text-3xl sm:text-4xl lg:text-5xl text-white text-center mb-14'>
                     Frequently Asked <span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Questions</span>
                 </h2>
                 <div className="flex flex-col items-center">
@@ -56,9 +56,7 @@ const Questions = () => {
                                             <p className={`${openIndex === index ? 'font-bold font-poppins' : 'font-normal font-Montserrat'} text-white text-base sm:text-lg`}>{item.q}</p>
                                             <h3 className={`${openIndex === index ? 'font-medium' : 'font-normal'} text-white font-poppins text-base sm:text-lg`}>{item.title}</h3>
                                         </div>
-                                        <span className={openIndex === index ? 'icon-minus' : 'icon-plus'} >
-                                            <Icon icon={`${openIndex === index ? 'UpIcon' : 'DownIcon'}`} />
-                                        </span>
+                                        <Icon icon={`${openIndex === index ? 'UpIcon' : 'DownIcon'}`} />
                                     </div>
                                     {openIndex === index && (
                                         <div className="accordion-content flex items-start gap-3 px-[19px] pb-4">
