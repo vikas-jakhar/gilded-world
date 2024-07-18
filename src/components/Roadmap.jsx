@@ -31,10 +31,10 @@ const Roadmap = () => {
     return (
         <section className='md:pt-20 -mt-2 bg-black md:pb-16 py-10 relative overflow-hidden'>
             <div className="container px-3 mt-2 lg:mb-16 pt-6 pb-4 relative 2xl:px-0">
-                <h2 className='text-center font-Josefin md:mb-16 mb-6 font-bold text-5xl text-white'><span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Road</span>map</h2>
+                <h2 className='text-center font-Josefin md:mb-16 mb-6 font-bold text-5xl text-white' data-aos="zoom-in-up" data-aos-duration="1500"><span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Road</span>map</h2>
                 <div className="pt-px flex flex-wrap flex-row -mx-3 relative">
                     {timeline.map((item, index) => (
-                        <div key={item.id} className={`lg:w-4/12 w-full flex px-3 relative z-[1] mt-6 lg:mt-0 lg:${index === 1 ? 'justify-center' : (index === timeline.length - 1 ? 'justify-end' : '')}`}>
+                        <div key={item.id} className={`lg:w-4/12 w-full flex px-3 relative z-[1] mt-6 lg:mt-0 lg:${index === 1 ? 'justify-center' : (index === timeline.length - 1 ? 'justify-end' : '')}`} data-aos="zoom-in" data-aos-duration="1500">
                             <div className=" flex gap-5 sm:gap-10 lg:gap-0 lg:flex-col">
                                 <span className='flex sm:w-[65px] sm:h-[62px] w-11 h-10 bg-[linear-gradient(90deg,_#815CC8_0%,_#1BABFE_100%)] rounded-full shadow-[0px_0px_63.22px_0px_#1BABFE] mb-9'></span>
                                 <div className=" flex flex-col pt-6">

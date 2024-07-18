@@ -15,7 +15,7 @@ import Questions from './components/Questions';
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({once:true});
   }, []);
 
   return (
