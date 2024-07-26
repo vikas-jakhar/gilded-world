@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from "../assets/image/svg/logo.svg";
-import Icon from './Icon';
+import Icon from '../common/Icon';
 
 const Navbar = () => {
     const [open, setopen] = useState(false);
@@ -14,7 +14,7 @@ const Navbar = () => {
         { id: 4, text: "$GILD Nodes" },
     ]
     return (
-        <header className=' fixed top-0 left-0 w-full py-4 bg-primary_black z-20'>
+        <div className=' fixed top-0 left-0 w-full py-4 bg-primary_black z-20'>
             <div className="container px-3 my-0.5 py-px 2xl:px-0">
                 <nav className=' flex justify-between items-center'>
                     <a href="#">
@@ -38,7 +38,7 @@ const Navbar = () => {
                     </div>
                 </nav>
             </div>
-        </header>
+        </div>
     )
 }
 

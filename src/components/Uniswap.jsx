@@ -1,6 +1,6 @@
 import React from 'react';
 import gold from "../assets/image/webp/gold.webp";
-import Icon from './Icon';
+import Icon from '../common/Icon';
 
 const Uniswap = () => {
     return (

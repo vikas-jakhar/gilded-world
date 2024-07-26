@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from './Icon';
+import Icon from '../common/Icon';
 import logo from "../assets/image/svg/logo.svg";
 
 const Questions = () => {
