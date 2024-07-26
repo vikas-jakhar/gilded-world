@@ -1,5 +1,5 @@
 import React from 'react';
-import women from "../assets/image/webp/women.png";
+import women from "../assets/image/webp/women.webp";
 
 const Nft = () => {
     return (

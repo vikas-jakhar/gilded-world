@@ -1,7 +1,7 @@
 import React from 'react';
 import gif from "../assets/image/gif/gilded-world.gif";
-import smoke_left from "../assets/image/webp/smoke-design-left.png";
-import smoke_right from "../assets/image/webp/smoke-design-right.png";
+import smoke_left from "../assets/image/webp/smoke-design-left.webp";
+import smoke_right from "../assets/image/webp/smoke-design-right.webp";
 
 const Earn = () => {
     return (

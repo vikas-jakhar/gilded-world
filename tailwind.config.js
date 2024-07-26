@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-bg': "url('./assets/image/webp/hero-bg-img.png')",
-        'nft': "url('./assets/image/webp/nft-bg.png')",
-        'game': "url('./assets/image/webp/gildedworld_environment.png')",
-        'token': "url('./assets/image/webp/token-bg.png')",
-        'Uniswap': "url('./assets/image/webp/Uniswap-bg.png')",
-        'Questions': "url('./assets/image/webp/Questions-bg.png')",
+        'hero-bg': "url('./assets/image/webp/hero-bg-img.webp')",
+        'nft': "url('./assets/image/webp/nft-bg.webp')",
+        'game': "url('./assets/image/webp/gildedworld_environment.webp')",
+        'token': "url('./assets/image/webp/token-bg.webp')",
+        'Uniswap': "url('./assets/image/webp/Uniswap-bg.webp')",
+        'Questions': "url('./assets/image/webp/Questions-bg.webp')",
       },
       fontFamily: {
         'Josefin': "Josefin Sans, sans-serif",

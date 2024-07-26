@@ -1,6 +1,6 @@
 import React from 'react';
-import quote_left from "../assets/image/webp/quote-left.png";
-import quote_right from "../assets/image/webp/quote-right.png";
+import quote_left from "../assets/image/webp/quote-left.webp";
+import quote_right from "../assets/image/webp/quote-right.webp";
 
 const Game = () => {
     return (

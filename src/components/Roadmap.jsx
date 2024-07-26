@@ -1,6 +1,6 @@
 import React from 'react';
-import line from "../assets/image/webp/timeline.png";
-import dotted from "../assets/image/webp/dotted-line.png";
+import line from "../assets/image/webp/timeline.webp";
+import dotted from "../assets/image/webp/dotted-line.webp";
 
 const Roadmap = () => {
     const timeline = [

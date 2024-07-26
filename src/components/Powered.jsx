@@ -1,8 +1,8 @@
 import React from 'react';
-import unreal from "../assets/image/webp/unreal.png";
-import uniswap from "../assets/image/webp/uniswap.png";
-import coin from "../assets/image/webp/coin.png";
-import polygon from "../assets/image/webp/polygon.png";
+import unreal from "../assets/image/webp/unreal.webp";
+import uniswap from "../assets/image/webp/uniswap.webp";
+import coin from "../assets/image/webp/coin.webp";
+import polygon from "../assets/image/webp/polygon.webp";
 
 const Powered = () => {
     const blue_box = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import gold from "../assets/image/webp/gold.png";
+import gold from "../assets/image/webp/gold.webp";
 import Icon from './Icon';
 
 const Uniswap = () => {
