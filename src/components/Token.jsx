@@ -13,7 +13,7 @@ const Token = () => {
     ];
 
     return (
-        <section className='bg-token bg-no-repeat bg-center bg-cover py-5 xl:py-24 -mt-2'>
+        <div className='bg-token bg-no-repeat bg-center bg-cover py-5 xl:py-24 -mt-2'>
             <div className="container px-3 xl:mt-8 mb-10 pt-2.5 2xl:px-0">
                 <h2 className='font-bold font-Josefin text-3xl sm:text-5xl xl:mt-8 text-white text-center mb-14 pb-0.5' data-aos="zoom-in-up" data-aos-duration="1500">
                     <span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>$GILD</span> Token Info
@@ -38,7 +38,7 @@ const Token = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 

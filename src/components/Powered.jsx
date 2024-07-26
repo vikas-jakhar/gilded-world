@@ -12,7 +12,7 @@ const Powered = () => {
         { id: 4, image: polygon, link: 'https://polygon.technology/' },
     ];
     return (
-        <section className=' py-5 xl:pb-14 xl:pt-6 bg-black -mt-1'>
+        <div className=' py-5 xl:pb-14 xl:pt-6 bg-black -mt-1'>
             <div className="container px-3 2xl:px-0 mt-1.5 xl:mb-14">
                 <h2 className=' font-Josefin font-bold text-4xl sm:text-5xl text-white text-center mb-16' data-aos="zoom-in-up" data-aos-duration="1500"><span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Powered</span> By:</h2>
                 <div className=" pt-2 gap-6 flex flex-row flex-wrap justify-center lg:flex-nowrap">
@@ -29,7 +29,7 @@ const Powered = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

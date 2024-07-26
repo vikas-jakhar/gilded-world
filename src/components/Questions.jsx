@@ -68,7 +68,7 @@ const Questions = () => {
     ]
 
     return (
-        <section className='pt-10 pb-2.5 -mt-1 bg-Questions bg-cover bg-no-repeat bg-center relative'>
+        <div className='pt-10 pb-2.5 -mt-1 bg-Questions bg-cover bg-no-repeat bg-center relative'>
             <div className="container px-3 2xl:px-0 mt-10 pt-8">
                 <h2 className='font-poppins font-bold text-3xl sm:text-4xl lg:text-5xl text-white text-center mb-3' data-aos="zoom-in-up" data-aos-duration="1500">
                     Frequently Asked <span className='bg-gradient-to-tr from-[#815CC8] to-[#1BABFE] bg-clip-text text-transparent'>Questions</span>
@@ -102,7 +102,7 @@ const Questions = () => {
                 </div>
                 <div className="xl:pt-14 -mt-1">
                     <div className="xl:mt-14 flex flex-row flex-wrap">
-                        <div className=" w-8/12 px-3">
+                        <div className=" md:w-8/12 w-full px-3">
                             <img src={logo} alt="logo" />
                             <p className=' mt-3 max-w-[367px] font-poppins font-normal text-white text-base opacity-70 leading-[28px]'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin curabitur iaculis id cursus dignissim.
@@ -116,7 +116,7 @@ const Questions = () => {
                             </div>
                         </div>
                         {Footer_link.map((e) => (
-                            <div key={e.id} className=" w-2/12 px-3 flex flex-col justify-center pb-3">
+                            <div key={e.id} className=" md:w-2/12 w-1/2 px-3 flex flex-col justify-center pb-3">
                                 <h2 className=' font-Josefin font-normal text-base text-white leading-[29px]'>{e.heading} </h2>
                                 <div className="flex flex-col pt-1.5">
                                     {e.heading_box.map((i) => (
@@ -134,7 +134,7 @@ const Questions = () => {
                     <p>Policy</p>
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

@@ -37,7 +37,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="xl:min-h-[931px] min-h-screen bg-hero-bg bg-cover bg-no-repeat bg-center flex items-center py-5">
+        <div className="xl:min-h-[931px] min-h-screen bg-hero-bg bg-cover bg-no-repeat bg-center flex items-center py-5">
             <div className="container px-3 xl:pt-14 mt-0.5 2xl:px-0">
                 <div className="flex flex-col items-center">
                     <h2 className="font-poppins font-normal xl:mt-14 text-3xl xl:text-7xl lg:text-6xl md:text-5xl text-center text-white md:leading-[70px] xl:leading-[92px] max-w-[1140px]">
@@ -49,7 +49,7 @@ const Hero = () => {
                             <span>{timeRemaining.days}</span>
                             <span>d</span>
                         </div>
-                        <div className="font-semibold font-Josefin text-2xl sm:text-4xl sm:leading-[12px] text-Sky_Blue flex flex-col">
+                        <div className="font-semibold font-Josefin text-sm leading-none sm:text-4xl sm:leading-[12px] text-Sky_Blue flex flex-col">
                             <span>.</span>
                             <span>.</span>
                         </div>
@@ -57,7 +57,7 @@ const Hero = () => {
                             <span>{timeRemaining.hours}</span>
                             <span>hr</span>
                         </div>
-                        <div className="font-semibold font-Josefin text-2xl sm:text-4xl sm:leading-[12px] text-white flex flex-col">
+                        <div className="font-semibold font-Josefin text-sm leading-none sm:text-4xl sm:leading-[12px] text-white flex flex-col">
                             <span>.</span>
                             <span>.</span>
                         </div>
@@ -65,7 +65,7 @@ const Hero = () => {
                             <span>{timeRemaining.minutes}</span>
                             <span>min</span>
                         </div>
-                        <div className="font-semibold font-Josefin text-2xl sm:text-4xl sm:leading-[12px] text-white flex flex-col">
+                        <div className="font-semibold font-Josefin text-sm leading-none sm:text-4xl sm:leading-[12px] text-white flex flex-col">
                             <span>.</span>
                             <span>.</span>
                         </div>
@@ -89,7 +89,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     );
 }
 

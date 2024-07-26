@@ -3,7 +3,7 @@ import women from "../assets/image/webp/women.webp";
 
 const Nft = () => {
     return (
-        <section className='py-5 bg-nft bg-no-repeat bg-cover bg-center -mt-2'>
+        <div className='py-5 bg-nft bg-no-repeat bg-cover bg-center -mt-2'>
             <div className="container px-3 2xl:px-0">
                 <div className=" flex flex-row flex-wrap -mx-3 -mt-3">
                     <div className=" lg:w-1/2 w-full px-3 pt-px" data-aos="zoom-in-right" data-aos-duration="1500">
@@ -19,7 +19,7 @@ const Nft = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     )
 }
 

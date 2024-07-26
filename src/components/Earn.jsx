@@ -5,7 +5,7 @@ import smoke_right from "../assets/image/webp/smoke-design-right.webp";
 
 const Earn = () => {
     return (
-        <section className=' relative bg-black py-5 -mt-2'>
+        <div className=' relative bg-black py-5 -mt-2'>
             <div className="container px-3 relative z-[1] lg:mt-8 lg:pt-12 pb-12 mb-14 2xl:px-0">
                 <div className="flex flex-col items-center pb-1.5">
                     <h2 className=' font-Josefin font-bold text-3xl sm:text-5xl text-white' data-aos="zoom-in-up" data-aos-duration="1500">
@@ -21,7 +21,7 @@ const Earn = () => {
             </div>
             <img src={smoke_left} alt="smoke_left" className=' absolute bottom-28 left-0' />
             <img src={smoke_right} alt="smoke_right" className=' absolute bottom-28 right-0' />
-        </section>
+        </div>
     )
 }
 
