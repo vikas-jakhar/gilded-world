@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,11 +10,10 @@ import Roadmap from './components/Roadmap';
 import Uniswap from './components/Uniswap';
 import Powered from './components/Powered';
 import Questions from './components/Questions';
+import Scrolltop from './components/Scrolltop';
+import Preloader from './components/Preloader';
 
 function App() {
-  useEffect(() => {
-    AOS.init({once:true});
-  }, []);
 
   return (
     <main className='overflow-hidden max-w-[1920px] mx-auto'>
@@ -30,6 +27,8 @@ function App() {
       <Uniswap />
       <Powered />
       <Questions />
+      <Scrolltop />
+      <Preloader />
     </main>
   );
 }

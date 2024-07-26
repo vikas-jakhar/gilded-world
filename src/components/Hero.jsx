@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Icon from '../common/Icon';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+    useEffect(() => {
+        AOS.init({ once: true });
+    }, []);
+
     const [timeRemaining, setTimeRemaining] = useState({
         days: 16,
         hours: 20,
