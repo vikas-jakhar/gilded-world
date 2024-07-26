@@ -6,8 +6,11 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const handleMenuToggle = () => {
-        setMenuOpen(!menuOpen);
+        if (window.innerWidth < 992) {
+            setMenuOpen(!menuOpen);
+        }
     };
+
 
     useEffect(() => {
         document.body.style.overflow = menuOpen ? "hidden" : "";
